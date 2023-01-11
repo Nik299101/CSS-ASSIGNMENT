@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headerText{
+    
+    font-family: 'Shadows Into Light',cursive;
+   
+    
+}
+.header_Icon{
+    color: gold;
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+hr{
+   color: red;
+}
+.varieties{
+    margin-top: 20px ;
+    margin-bottom: 0px;
+    font-size: 23px;
+    
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.dash{
+    margin-left: 660px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+
+}
+.containerImg{
+    display: flex;
+    justify-content: space-between;
+}
+.bigImg{
+    width: 1300px;
+    height: 450px;
+    margin-left: 10px;
+    margin-top: 8px;
+    border-radius: 10px ;
+    background-image: url('https://images.pexels.com/photos/315755/pexels-photo-315755.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.bigimgcont{
+    /* border: 2px solid red; */
+    height: 190px;
+    position: relative;
+    top: 210px;
+    background-color: rgb(120, 10, 223);
+    opacity: 0.7;
+    border-radius: 5px;
+    color: white;
+}
+.star>img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 400px;
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 6px;
+}
+.rated{
+    position: relative;
+   left: 420px;
+   font-size: 20px;
+}
+.bigimgcont>h3{
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.bigimgcont>p{
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.explore{
+    border: 2px solid white;
+    width: 100px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 3px;
+}
+.insideimg1{
+    
+    height: 120px;
+    width: 350px;
+    position: relative;
+    top: 100px;
+    border-radius: 5px;
+    background-color: white;
+    opacity: 0.7;
+}
+.insideimg1>h3{
+   color: black;
+   margin-left: 10px;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+.insideimg1>P{
+    margin-left: 10px;
+}
+.explore1{
+position: relative;
+left: 10px;
+top: 15px;
+}
+.rated1{
+    position: relative;
+    left: 200px;
+    top: 15px;
+}
+.star1>img{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+}
+
+
+
+
+.img1>img{
+   height: 220px;
+   width: 330px;
+   float: left;
+   margin: 5px ;
+   border-radius: 10px;
+}
+.img3{
+    margin-left: 3px;
+    display: flex;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBoH9U_jY23HtliWWyTbqNVQJ9p8m1yaK3Q&usqp=CAU');
+    /*  */
+    height: 220px;
+   width: 330px;
+   float: left;
+   margin: 5px ;
+   border-radius: 10px;
+   background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.img4{
+    height: 220px;
+   width: 330px;
+   float: left;
+   margin: 5px;
+   border-radius: 10px;
+   background-image: url('https://images.unsplash.com/photo-1553025934-296397db4010?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZGFyayUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&w=1000&q=80');
+   background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    position: relative;
+}
+
+.img2{
+    height: 220px;
+   width: 330px;
+   float: left;
+   margin: 5px;
+   border-radius: 10px;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4jTg5oy79DF-xA3Cx2rwOj13j5Lr9pvvAug&usqp=CAU');
+   background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+    
+ 
+ .img1{
+    margin-left: 3px;
+    display: flex;
+    background-image: url('https://c.ndtvimg.com/dlmckxrq6kv_french-fries_625x300.jpg');
+    /*  */
+    height: 220px;
+   width: 330px;
+   float: left;
+   margin: 5px ;
+   border-radius: 10px;
+   background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+
+ 
+ .textcontainer{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  
+   
+ }
+
+.text2,.text3,.text1{
+    /* margin-left: 100px; */
+    width: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.aboutheading{
+
+margin-top: 80px;
+margin-bottom: 0px;
+/* font-weight: bold; */
+font-size: 23px;
+
+}
+.aboutdash{
+    margin-left: 650px;
+    margin-bottom: 15px;
+}
+.aboutimg{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-image: url('http://www.thehealthsite.com/wp-content/uploads/2015/09/brown-coloured-foods.jpg');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    width: 100%;
+    height: 350px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+.aboutimg{
+    display: flex;
+    justify-content:space-around;
+  
+}
+.lastsection{
+    width: 98%;
+    height: 650px;
+    margin: 5px;
+    margin-top: 0px;
+  background-color: rgba(246, 252, 250, 0.918);
+  margin-left: 12px;
+  margin-bottom: 300px;
+
+}
+.foodguidedash{
+    margin-left: 630px;
+    margin-bottom: 10px;
+}
+.foodguide{
+    margin-left: 570px;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    font-size: 23px;
+
+}
+.foodguideimg>img{
+    height: 400px;
+    width: 400px;
+    border-radius: 300px;
+    margin-left: 550px;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+.vegetableicon>img{
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 40px;
+    border: 2px solid rgb(204, 178, 204) ;
+    border-radius: 50px;
+    background-color:rgb(204, 178, 204) ;
+    color: white;
+    filter: grayscale(100%);
+    
+
+}
+.icontext{
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.iconheading{
+    margin-left: 50px;
+}
+.vegetableicon2>img{
+    position: relative;
+    bottom: 350px;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 2px solid rgb(204, 178, 204) ;
+    border-radius: 50px;
+    background-color:rgb(204, 178, 204) ;
+    filter: grayscale(100%);
+    color: white;
+}
+.text7{
+    position: relative;
+    bottom: 350px;
+    margin-left: 10px;
+}
+.text8{
+    position: relative;
+    bottom: 850px;
+    left: 1000px;
+    margin-left: 10px;
+}
+.text9{
+    position: relative;
+    bottom: 730px;
+    margin-left: 10px;
+    left: 1000px;
+}
+.vegetableicon3>img{
+    position: relative;
+    bottom: 850px;
+    left: 1000px;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 2px solid rgb(204, 178, 204) ;
+    border-radius: 50px;
+    background-color:rgb(204, 178, 204) ;
+    color: white;
+    filter: grayscale(100%);
+}
+.vegetableicon4>img{
+    position: relative;
+    bottom: 730px;
+    left: 1000px;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border: 2px solid rgb(204, 178, 204) ;
+    border-radius: 50px;
+    background-color:rgb(204, 178, 204) ;
+    filter: grayscale(100%);
+}
+/* .img19{
+    position: relative;
+} */
+.ing1>img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+    
+}
+.ing1{
+    text-align: center;
+    color: white;
+}
+.ing2{
+    /* position: relative; */
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.ing2>img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+    left: 130px;
+
+}
+.paraimg{
+    position: relative;
+    top: 15px;
+    left: 100px;
+}
+.paraimg1{
+    position: relative;
+    right: 100px;
+    text-align: center;
+}
+.ing3>img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    position: relative;
+}
+.ing3{
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
